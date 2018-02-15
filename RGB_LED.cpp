@@ -19,7 +19,7 @@ void initRGB(int rpinval, int gpinval, int bpinval) // set pin number on Arduino
 
 void setRGB(int Rin, int Gin, int Bin) // set value for each RGB color
 {
-	analogWrite(Rpin, 255-(Rin*140)/255);
+	analogWrite(Rpin, 255-(Rin*145)/255);
 	analogWrite(Gpin, 255-Gin);
 	analogWrite(Bpin, 255-Bin);
 }
